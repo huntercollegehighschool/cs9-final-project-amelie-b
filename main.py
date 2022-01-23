@@ -1,11 +1,20 @@
 """
-Name(s):
-Name of Project:
+Name(s): Amelie Bi
+Name of Project: Anagram Aneurysm
 """
 
 #Write the main part of your program here. Use of the other pages is optional.
 
-#import page1  # uncomment if you're using page1
-#import page2  # uncomment if you're using page2
-#import page3  # uncomment if you're using page3
-#import page4  # uncomment if you're using page4
+in_number = input("Welcome to the Anagram Aneurysm: The game NOT guaranteed to give you a headache. Please enter 4, 5, 6, or 7 for the number of letters you wish to try solving: ")
+
+if in_number == "4":
+  import page1
+elif in_number == "5":
+  import page2
+elif in_number == "6":
+  import page3
+elif in_number == "7":
+  import page4
+else:
+  in_number = input("Sorry; your input is invalid. Please enter 4, 5, 6, or 7 for the number of letters you wish to try: ")
+#import page5  # uncomment if you're using page5
