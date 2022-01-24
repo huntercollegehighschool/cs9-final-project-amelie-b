@@ -10,7 +10,7 @@ total = 0
 
 trial_1 = input("What 4-letter words can you think of that contain these 4 letters? Enter them one by one! Remember: enter your words in ALL CAPS. You may not enter a word twice. What is your first word? Enter return if you wish to return to the title page:  ")
 
-while total < 4:
+while total < 5:
   if (trial_1 == "OPTS") and (trial_1 in list_4_ans):
     print("Nice!")
     list_4_ans.remove("OPTS")
