@@ -13,7 +13,7 @@ trial_4 = input("What 6-letter words can you think of that contain these 5 lette
 while total < 1:
   if (trial_4 == "ANAGRAM") and (trial_4 in list_6_ans):
     print("Nice!")
-    list_6_ans.remove("LEAPT")
+    list_6_ans.remove("ANAGRAM")
     total = total + 1
     trial_4 = input("Congratulations! You've finished this puzzle! Enter a random letter or number to indicate that you wish to try another puzzle: ")
   elif trial_4 == "RETURN":
